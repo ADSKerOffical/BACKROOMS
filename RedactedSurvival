@@ -135,6 +135,69 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+ Name = "Secret level 4",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(15176737510)
+   end    
+})
+
+Tab:AddButton({
+ Name = "level 922337....",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(10920595079)
+   end    
+})
+
+Tab:AddButton({
+ Name = "Pipe level",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(12480086724)
+   end    
+})
+
+Tab:AddButton({
+ Name = "level 188",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(11306011556)
+   end    
+})
+
+Tab:AddButton({
+ Name = "Kitty House",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(9600038947)
+   end    
+})
+
+Tab:AddButton({
+ Name = "After party",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(14687775444)
+   end    
+})
+
+Tab:AddButton({
+ Name = "The blue channel",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(12480090095)
+   end    
+})
+
+Tab:AddButton({
+ Name = "Void",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(15401149177)
+   end    
+})
+
+Tab:AddButton({
+ Name = "BAD ENDING",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(10921820211)
+   end    
+})
+
+Tab:AddButton({
 	Name = "Windows",
 	Callback = function()
       		game:GetService("TeleportService"):Teleport(10970050737)
