@@ -204,6 +204,34 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+ Name = "The backroom",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(15047841285)
+   end    
+})
+
+Tab:AddButton({
+ Name = "Welcome to hell",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(9627132198)
+   end    
+})
+
+Tab:AddButton({
+ Name = "Level 998",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(15099618047)
+   end    
+})
+
+Tab:AddButton({
+ Name = "Level 999",
+ Callback = function()
+        game:GetService("TeleportService"):Teleport(15099807446)
+   end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Useful features",
 	Icon = "rbxassetid://4483345998",
@@ -222,7 +250,7 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Kill all npcs",
 	Callback = function()
-      		sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
 sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
 for i,d in pairs(game.Workspace:GetDescendants()) do
     if d.ClassName == 'Humanoid' and d.Parent.Name ~= game.Players.LocalPlayer.Name then
